@@ -26,4 +26,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //LitePal数据库
+    implementation 'org.litepal.android:core:1.4.1'
+    //okhttp
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.2'
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
 }
